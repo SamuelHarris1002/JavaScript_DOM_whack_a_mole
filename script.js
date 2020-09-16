@@ -61,7 +61,7 @@ function whack(e){
     this.style.backgroundImage = 'url("yoda2.png")';
     this.style.pointerEvents = 'none';
     setTimeout(() => {
-        this.style.backgroundImage = 'url("yoda1.png)';
+        this.style.backgroundImage = 'url("yoda1.png")';
         this.style.pointerEvents = 'all';
     }, 800)
     scoreBoard.textContent = score;
